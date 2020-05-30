@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+mkdir bin diffs
 clang -w -fsanitize=address -o bin/tester.out src/test.c ../libftprintf.a \
 && ./bin/tester.out\
 && ./bin/tester.out > output
