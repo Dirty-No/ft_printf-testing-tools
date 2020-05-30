@@ -3,7 +3,7 @@ ft_printf testing tools provides you tools to compare your ft_printf to the real
  # SETUP
 Just clone this repository where the Makefile for ft_printf is.
 
-You may have to change the headers path in the .c source files it isn't located at the same place as the Makefile
+You may have to change the libftprintf.h's path in the .c source files it isn't located at the same place as the Makefile
 # FEATURES
  - test.sh allows you to compile and run src/test.c
 - src/test.c contains :
