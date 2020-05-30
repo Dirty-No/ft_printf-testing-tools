@@ -21,7 +21,7 @@ Feel free to copy and use T_PRINTF() how you want, it is located at the very top
 	-  If nothing seems no happen when you launch the script, it means there is no difference between ft_printf's output and printf's output.
 
 # CONTACT
-If you encounter any issue with this project, feel free to contact me :
+If you encounter any issue with this project and wish to contact me:
 
  - E-Mail : smaccary@student.42.fr
  - Twitter : [https://twitter.com/slutymeme](https://twitter.com/slutymeme)
