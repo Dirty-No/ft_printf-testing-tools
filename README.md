@@ -29,3 +29,5 @@ If you encounter any issue with this project, feel free to contact me :
  (I'll reply way faster on twitter)
  
  (Don't worry I have nothing else to do)
+
+shortcut to this repo : https://s.42l.fr/ptf
