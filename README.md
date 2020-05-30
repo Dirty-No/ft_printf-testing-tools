@@ -11,6 +11,7 @@ You may have to change the headers path in the .c source files it isn't located 
 	- Some pre-made tests
 	- Memory leaks check with system leaks (installed on 42's Macs)
 	- Return errors check (ft_printf's return != printf's return) 
+	- Pretty colors
 
 Feel free to copy and use T_PRINTF() how you want, it is located at the very top of src/test.c
 
