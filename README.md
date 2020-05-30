@@ -19,3 +19,12 @@ Feel free to copy and use T_PRINTF() how you want, it is located at the very top
 	- To use it, simply write any test you want in src/diff_it.c using printer() and launch diff_it.sh, the script will automatically compile the program, run it using printf and ft_printf, and diff the outputs
 
 	-  If nothing seem no happen when you launch the script, it means there is no difference between ft_printf's output and printf's output
+
+# CONTACT
+If you encounter any issue with this project, feel free to contact me :
+
+ - E-Mail : smaccary@student.42.fr
+ - Twitter : [https://twitter.com/slutymeme](https://twitter.com/slutymeme)
+ 
+ (I'll reply way faster on twitter)
+ (Don't worry I have nothing else to do)
