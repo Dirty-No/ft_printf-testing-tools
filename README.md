@@ -4,7 +4,9 @@ ft_printf testing tools provides you tools to compare your ft_printf to the real
 ft_printf is a 42 school's project where you have to recreate C stdio's printf from scratch.
 
  # SETUP
-Just clone this repository where the Makefile for ft_printf is.
+Run this command in the directory where ft_printf's makefile is located :
+
+    make && gcl https://github.com/Dirty-No/ft_printf-testing-tools.git && cd t_printf-testing-tools
 
 You may have to change the libftprintf.h's path in the .c source files it isn't located at the same place as the Makefile.
 # FEATURES
