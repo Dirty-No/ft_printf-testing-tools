@@ -6,7 +6,7 @@ ft_printf is a 42 school's project where you have to recreate C stdio's printf f
  # SETUP
 ### Run this command in the directory where libftprintf.a is created :
 
-    `make && git clone https://github.com/Dirty-No/ft_printf-testing-tools.git && cd ft_printf-testing-tools`
+   #### `make && git clone https://github.com/Dirty-No/ft_printf-testing-tools.git && cd ft_printf-testing-tools`
 
 #### You may have to change ft_printf's header filepath in ptf_tester.h if the relative path is not *`"../../libftprintf.h"`.
 # FEATURES
