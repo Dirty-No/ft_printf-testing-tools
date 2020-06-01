@@ -2,6 +2,7 @@
 ft_printf testing tools provides you tools to compare your ft_printf to the real printf.
 
 ft_printf is a 42 school's project where you have to recreate C stdio's printf from scratch.
+This has currently only been tested for Linux
 
 ### THIS IS NOT AN "UNIT TEST"
  These are tools allowing you to make your own tests easily and efficiently.
@@ -11,17 +12,17 @@ Run this command in the directory where ft_printf's makefile is located :
 
     make && git clone https://github.com/Dirty-No/ft_printf-testing-tools.git && cd ft_printf-testing-tools
 
-You may have to change the libftprintf.h's path in the .c source files it isn't located at the same place as the Makefile.
+You may have to change the libftprintf.h's path in ptf_tester.h if the relative path to ptf_tester.h is not "../../libftprintf.h".
 # FEATURES
  - test.sh allows you to compile and run src/test.c
-- src/test.c contains :
+- src/test.c allow you to use :
 	-  A variadic macro T_PRINTF() that compare your ft_printf to the real printf
 	- Some pre-made tests
 	- Memory leaks check with system leaks (installed on 42's Macs)
 	- Return errors check (ft_printf's return != printf's return) 
 	- Pretty colors
 
-Feel free to copy and use T_PRINTF() how you want, it is located at the very top of src/test.c .
+Feel free to copy and use T_PRINTF() how you want, it is located at the very top of src/ptf_tester.h .
 
 - diff_it.sh allows to diff the output of ft_printf and the output of the real printf
 	- To use it, simply write any test you want in src/diff_it.c using printer() and launch diff_it.sh, the script will automatically compile the program, run it using printf and ft_printf, and diff the outputs.
