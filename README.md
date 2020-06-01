@@ -1,7 +1,8 @@
 
 # ft_printf-testing-tools (NEW CURSUS)
 **ft_printf testing tools provides you tools and tests to compare your ft_printf to the real printf.
-ft_printf is a 42 school's project where you have to recreate C stdio's printf from scratch.**
+
+**ft_printf is a 42 school's project where you have to recreate C stdio's printf from scratch.
 
  # SETUP
 ### Run this command in the directory where libftprintf.a is created :
