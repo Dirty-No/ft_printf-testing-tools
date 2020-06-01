@@ -1,5 +1,5 @@
 
-# ft_printf-testing-tools
+# ft_printf-testing-tools (NEW CURSUS)
 **ft_printf testing tools provides you tools and tests to compare your ft_printf to the real printf.
 ft_printf is a 42 school's project where you have to recreate C stdio's printf from scratch.**
 
