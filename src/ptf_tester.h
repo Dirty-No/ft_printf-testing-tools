@@ -6,7 +6,7 @@
 /*   By: smaccary <smaccary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/01 14:15:24 by smaccary          #+#    #+#             */
-/*   Updated: 2020/06/01 14:36:48 by smaccary         ###   ########.fr       */
+/*   Updated: 2020/06/01 21:05:12 by smaccary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,8 @@
 	fflush(stdout);\
 }
 
+void    test_fast_correction(void);
+void    diff_fast_correction(int (*printer)(char *, ...));
 void	test1(void);
 void	test2(void);
 void	test3(void);
@@ -72,7 +74,6 @@ void 	test13(void);
 void 	test14(void);
 void	test15(void);
 void 	hello_world(void);
-void	mazoise_2(void);
 void	mazoise(int arg);
 
 #endif
