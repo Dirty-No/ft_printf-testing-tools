@@ -15,10 +15,10 @@ Run this command in the directory where ft_printf's makefile is located :
 
 You may have to change the libftprintf.h's path in ptf_tester.h if the relative path to ptf_tester.h is not "../../libftprintf.h".
 # FEATURES
- - test.sh allows you to compile and run src/test.c
-- src/test.c allow you to use :
+ - test.sh allows you to compile and run the code located in src/main.c
+- src/main.c allow you to use :
 	-  A variadic macro T_PRINTF() that compare your ft_printf to the real printf
-	- Some pre-made tests
+	- Some pre-made tests (code in src/tests.c)
 	- Memory leaks check with system leaks (installed on 42's Macs)
 	- Return errors check (ft_printf's return != printf's return) 
 	- Pretty colors
