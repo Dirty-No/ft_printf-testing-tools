@@ -13,7 +13,7 @@ Run this command in the directory where ft_printf's makefile is located :
 
     make && git clone https://github.com/Dirty-No/ft_printf-testing-tools.git && cd ft_printf-testing-tools
 
-You may have to change the libftprintf.h's path in ptf_tester.h if the relative path to ft_printf's header is not "../../libftprintf.h".
+You may have to change the ft_printf's header filepath in ptf_tester.h if the relative path is not "../../libftprintf.h".
 # FEATURES
  - test.sh allows you to compile and run the code located in src/main.c
 - src/main.c allow you to use :
