@@ -37,6 +37,9 @@ If you encounter any issue with this project and wish to contact me:
  
  (Don't worry I have nothing else to do)
 
-# USEFUL
+# USEFUL LINKS FOR FT_PRINTF
 
 ### Shortcut to this repo : https://s.42l.fr/ptf
+PFT_2019 tester : https://github.com/cclaude42/PFT_2019
+mazoise's tester https://github.com/Mazoise/42TESTERS-PRINTF
+printf-unit-test https://github.com/alelievr/printf-unit-test
