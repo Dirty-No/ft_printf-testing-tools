@@ -2,11 +2,10 @@
 
 cd .. && make && cd ft_printf-testing-tools
 mkdir -p bin diffs
-clang -w -g -fsanitize=address -o bin/tester.out src/main.c src/tests.c ../libftprintf.a \
-&& ./bin/tester.out\
-&& ./bin/tester.out > output
+clang -w -g -fsanitize=address -o bin/tester.out src/main.c src/tests.c ../libftprintf.a
+./bin/tester.out > output
 count=$(cat output | grep DIFFER | wc -l)
-#cat output && rm output
+cat output
 rm output
 if [ $count != "0" ]
 then
