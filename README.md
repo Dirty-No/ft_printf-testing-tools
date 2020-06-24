@@ -9,7 +9,6 @@
 
    #### `git clone https://github.com/Dirty-No/ft_printf-testing-tools.git && cd ft_printf-testing-tools`
 
-You may have to change ft_printf's header filepath in ptf_tester.h if the relative path is not *`"../../libftprintf.h"`.
 # FEATURES
  - ### `test.sh` allows you to compile and run the code located in src/main.c
 - `src/main.c` allow you to use :
