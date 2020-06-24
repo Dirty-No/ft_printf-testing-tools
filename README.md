@@ -35,10 +35,6 @@ If you encounter any issue with this project and wish to contact me:
  - E-Mail : smaccary@student.42.fr
  - Twitter : [https://twitter.com/slutymeme](https://twitter.com/slutymeme)
  
- (I'll reply way faster on twitter)
- 
- (Don't worry I have nothing else to do)
-
 ## USEFUL LINKS FOR FT_PRINTF
 
 ### Shortcut to this repo : https://s.42l.fr/ptf
