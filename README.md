@@ -22,10 +22,10 @@
 Feel free to copy and use `T_PRINTF()` how you want, it is located at the very top of `src/ptf_tester.h .`
 
 - ### diff_it.sh allows to diff the output of ft_printf and the output of the real printf
-	- To use it, simply write any test you want in src/diff_it.c using printer() and launch diff_it.sh, the script will automatically compile the program, run it using printf and ft_printf, and diff the outputs.
+	- To use it, simply write any test you want in src/diff_it.c using printer() and launch diff_it.sh, the script will automatically compile the program, then run it using printf and ft_printf, and diff their respective outputs.
 	-  #### By default, an unit test is launched but nothing prevents you from adding your own tests.
 
-	-  If nothing seems no happen when you launch the script, it means there is no difference between ft_printf's output and printf's output.
+	-  If nothing seems to happen when you launch the script, it means there is no difference between ft_printf's output and printf's output.
 
 The default tests are based on ft_printf correction's instructions, no unnessecary tests are made.
 
