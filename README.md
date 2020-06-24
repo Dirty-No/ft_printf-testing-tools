@@ -34,6 +34,8 @@ If you encounter any issue with this project and wish to contact me:
 
  - E-Mail : smaccary@student.42.fr
  - Twitter : [https://twitter.com/slutymeme](https://twitter.com/slutymeme)
+ - 42's slack : smaccary
+ - You may also find me on 42's discord server from time to time
  
 ## USEFUL LINKS FOR FT_PRINTF
 
