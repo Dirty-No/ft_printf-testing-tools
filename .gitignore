@@ -1,2 +1,6 @@
 bin/
 diffs/
+output/
+*.o
+*.out
+*.output
