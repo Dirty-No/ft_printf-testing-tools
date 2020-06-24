@@ -1,4 +1,6 @@
 #!/bin/bash -e
+
+cd .. && make && cd ft_printf-testing-tools
 mkdir -p bin outputs
 clang -w -g -fsanitize=address -o bin/test_diff.out src/tests.c src/test_diff.c ../libftprintf.a 
 ./bin/test_diff.out > outputs/ft_printf.output 

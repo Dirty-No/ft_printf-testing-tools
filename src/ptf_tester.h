@@ -13,8 +13,6 @@
 #ifndef PTF_TESTER_H
 # define PTF_TESTER_H
 
-# include "../../libftprintf.h"
-
 # include <stdio.h>
 # include <stdlib.h>
 # include <limits.h>
@@ -55,6 +53,8 @@
 	printf("\033[1;35m\n###############\t\tRETURN VALUES\t\t###############\n\033[1;32mprintf:\t\t|%d|\n\033[1;36mft_printf:\t|%d|\n\n\033[1;34m***************************************************************\n\033[0m", nb1, nb2);\
 	fflush(stdout);\
 }
+
+int	ft_printf(const char *format, ...);
 
 void    test_fast_correction(void);
 void    diff_fast_correction(int (*printer)(char *, ...));
