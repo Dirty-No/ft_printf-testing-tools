@@ -49,7 +49,7 @@ void    diff_fast_correction(int (*printer)(char *, ...))
 */
     
     printer("%s %s %s %s %s\n", NULL, "string 1\\", "string 2\\", "string 3\\", "string 4\\");
-    printer("%p %p %p %p\n", ptr, NULL, (void *)500, &printer);
+    printer("%p %p %p %p\n", ptr, NULL, (void *)500, 32);
     printer("%d %d %d %d\n", 1234, INT_MAX, INT_MAX, 0);
 
 /*  Slightly complicated tests
