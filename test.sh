@@ -9,5 +9,5 @@ cat output
 rm output
 if [ $count != "0" ]
 then
-    echo -e "\t\e[31m/!\\ THERE HAS BEEN \e[36m$count\e[31m RETURN ERRORS /!\\ \e[0m"
+    printf "\t\e[31m/!\\ THERE HAS BEEN \e[36m%d\e[31m RETURN ERRORS /!\\ \e[0m" $count
 fi
