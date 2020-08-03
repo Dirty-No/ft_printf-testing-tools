@@ -7,4 +7,4 @@ clang -w -g -fsanitize=address -o bin/test_diff.out src/tests.c src/test_diff.c 
 ./bin/test_diff.out printf > outputs/printf.output 
 printf "\e[31m" 
 diff outputs/ft_printf.output outputs/printf.output 
-printf "\e[0m"JJ
+printf "\e[0m"
